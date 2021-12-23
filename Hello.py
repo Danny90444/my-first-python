@@ -26,8 +26,3 @@ print(color_translator("")) # Should be unknown
 
 print("I am trying to get this working")
 print("HI Danny")
-
-
-
-HIIIIIIIIIIIIIIIIIIIIIIII
-FFFFFF
