@@ -24,3 +24,4 @@ print(color_translator("black")) # Should be unknown
 print(color_translator("green")) # Should be #00ff00
 print(color_translator("")) # Should be unknown
 
+print("I am new")
