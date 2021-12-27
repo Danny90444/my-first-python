@@ -15,7 +15,7 @@ def color_translator(color):
 		hex_color = "#0000ff"
 	else:
 		hex_color = "unknown"
-	return "unknown"
+	return hex_color
 
 print(color_translator("blue")) # Should be #0000ff
 print(color_translator("yellow")) # Should be unknown
@@ -24,5 +24,27 @@ print(color_translator("black")) # Should be unknown
 print(color_translator("green")) # Should be #00ff00
 print(color_translator("")) # Should be unknown
 
-print("I am trying to get this working")
-print("HI Danny")
+print("cat" == "cat")
+
+
+print( "this is " + str(1 / 4))
+
+def fractional_part(numerator, denominator):
+	if denominator == 0 or numerator == 0:
+		return 0
+	div = (numerator % denominator)
+	if div > 0:
+			rem = (div / denominator)
+			return rem
+	elif div == 0:
+			 return 0
+		
+		
+
+print(fractional_part(5, 5)) # Should be 0
+print(fractional_part(5, 4)) # Should be 0.25
+print(fractional_part(5, 3)) # Should be 0.66...
+print(fractional_part(5, 2)) # Should be 0.5
+print(fractional_part(5, 0)) # Should be 0
+print(fractional_part(0, 5)) # Should be 0
+
