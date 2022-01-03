@@ -70,4 +70,3 @@ print(format_name("Voltaire", ""))
 
 print(format_name("", ""))
 # Should return an empty string
-
