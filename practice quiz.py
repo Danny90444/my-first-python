@@ -1,11 +1,16 @@
 def sum_divisors(n):
   sum = 0
+  start = 1
   breakpoint = n / 2
-
-
+  while start <= breakpoint:
+      if n % start == 0:
+        sum = sum + start 
+        start += 1
+      else:
+        start += 1
   # Return the sum of all divisors of n, not including n
   return sum
-  print breakpoint
+ 
 
 print(sum_divisors(0))
 # 0
