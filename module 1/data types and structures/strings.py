@@ -1,5 +1,6 @@
 def double_word(word):
-    legnth = (word*2 + str(len(word*2))
+    legnth = word *2
+    legnth += str(len(legnth))
     return legnth
 
 print(double_word("hello")) # Should return hellohello10
