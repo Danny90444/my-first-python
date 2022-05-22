@@ -6,9 +6,9 @@ for i in range(1, 11):
 
   print(i**3)
 
-#for x in range(0,101):
-#	if x % 7 == 0:
-#		print(x)
+for x in range(0,101):
+	if x % 7 == 0:
+		print(x)
 
 #def retry(operation, attempts):
 #  for n in range(attempts):
