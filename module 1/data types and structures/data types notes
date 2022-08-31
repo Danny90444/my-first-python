@@ -1,0 +1,80 @@
+Empty String = ""
+
+concatenating 
+
+Multiply strings
+"example*3"
+'exampleexampleexample'
+
+legnth = len()
+
+String Indexing - starts counting from 0
+
+name = "Jaylen"
+print(name[1])
+a
+
+last index will be legnth -1 
+Negative indexes
+
+text = "Hello i am random words"
+print(text[-1])
+s
+
+Substring - starts counting from 0
+color = "Orange"
+color:[1:4]
+ran
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+() = tuple
+[] = list
+{} = dictionary
+
+list = ["This", "is", "a", "list"]
+
+fruits = ["apple", "banana", "cherry"]
+
+if "banana" in fruits:
+  print("yes")

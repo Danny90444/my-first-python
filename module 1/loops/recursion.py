@@ -28,4 +28,4 @@ print(is_power_of(70,10)) # Should be False
 print(is_power_of(1,1))
 print(is_power_of(68,5))
 print(is_power_of(68,4))
-print(is_power_of(500,5))
+print(is_power_of(500,5)) f
