@@ -45,3 +45,21 @@ print(student_grade("Paige", 92))
 print(student_grade("Jesse", 85))
 
 print("test")
+
+def replace_domain(email, old_domain, new_domain):
+    if "@" + old_domain in email:
+        index = email.index("@" + old_domain)
+        new_email = email[:index] + "@" + new_domain
+        return new_email
+    return email
+
+floatNumber = 1.9876
+print("%.3f" % floatNumber)
+
+def to_celsius(x):
+    return (x-32)*5/9
+
+for x in range(0,101,10):
+    print("{:>3} F | {:>6.2f} C".format(x, to_celsius(x)))
+    
+print("{:>100s}".format('PY'))

@@ -1,6 +1,10 @@
 Empty String = ""
 
 concatenating 
++
+join
+str numbers into string
+int string into numbers
 
 Multiply strings
 "example*3"
@@ -26,6 +30,56 @@ color = "Orange"
 color:[1:4]
 ran
 
+mess = "A kong message with a silly typo"
+new_mess = mess[0:2] + "l" + mess[3:]
+
+pets = "Cats & Dogs" 
+pets.index("&")
+5
+
+index method returns just the first position that matches
+"Cats" in pets 
+True
+"Dragon" in pets
+False
+
+
+String Methods: 
+
+.uppper upper case
+.lower lower case 
+.index returns just the first position that matches
+.rindex() method finds the last occurrence of the specified value.
+.strip - get rid of any spaces tabs or new line characters 
+.lstrip as above but on the left
+.rstrip as above but on the right
+.count  how many times a given substring appears within a string.
+.endswith returns whether the string ends with a certain substring
+.isnumeric is made up of just numbers
+.join
+
+	" ".join(["This", "is", "joined", "by", "spaces"])
+	'This is joined by spaces'
+.split splits all words in a string by whitespaced. can also use comma or dot
+
+format method {}
+.format()
+formating expression
+price = 7.5
+with_tax = price * 1.09
+print("Base price: ${:.2f}. With Tax ${:.2f}".format(price, with_tax))
+Base price: 7.50. With Tax: $8.18
+
+for x in range(0,101,10):
+    print("{:>3} F | {:>6.2f} C".format(x, to_celsius(x)))
+{:>3} > used greater than to align text to the right 3 spaces
+
+.replace 
+txt = "I like bananas"
+
+x = txt.replace("bananas", "apples")
+
+print(x)
 
 
 
@@ -37,35 +91,7 @@ ran
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+List:
 
 
 () = tuple
@@ -78,3 +104,9 @@ fruits = ["apple", "banana", "cherry"]
 
 if "banana" in fruits:
   print("yes")
+
+list methods:
+
+.append() adding an element to a list
+.insert(index,element)
+.remove remove an element from a list
