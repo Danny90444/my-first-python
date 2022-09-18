@@ -47,3 +47,29 @@ print(replace_ending("The weather is nice in May", "may", "april"))
 print(replace_ending("The weather is nice in May", "May", "April")) 
 # Should display "The weather is nice in April"
 
+single_word = "alphabet"
+
+print((len(single_word)))
+
+def is_palindrome(input_string):
+# We'll create two strings, to compare them
+  new_string = ""
+  reverse_string = ""
+
+# Traverse through each letter of the input string
+
+  for string in input_string:
+# Add any non-blank letters to the
+# end of one string, and to the front
+# of the other string.
+   if string!= " ":
+      new_string = new_string+ string.lower()
+      reverse_string = string.lower()+ reverse_string
+  if new_string == reverse_string:
+       return True
+  return False
+ 
+
+print(is_palindrome("Never Odd or Even"))
+print(is_palindrome("abc")) # Should be False
+print(is_palindrome("kayak")) # Should be True

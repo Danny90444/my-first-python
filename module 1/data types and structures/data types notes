@@ -113,3 +113,24 @@ list methods:
 .pop(index) removes an element from the index
 
 enumerate for loop through a list to get the elements of the list as well as the index of those elements
+
+The enumerate() function takes a list as a parameter and returns a tuple for each element in the list. 
+The first value of the tuple is the index and the second value is the element itself.
+
+List comprehension a built in way to create new lists based on sequences or ranges
+
+List-specific operations and methods
+
+list[i] = x Replaces the element at index i with x
+list.append(x) Inserts x at the end of the list
+list.insert(i, x) Inserts x at index i
+list.pop(i) Returns the element a index i, also removing it from the list. 
+If i is omitted, the last element is returned and removed.
+
+list.remove(x) Removes the first occurrence of x in the list
+list.sort() Sorts the items in the list
+list.reverse() Reverses the order of items of the list
+list.clear() Removes all the items of the list
+list.copy() Creates a copy of the list
+
+list.extend(other_list) Appends all the elements of other_list at the end of list
