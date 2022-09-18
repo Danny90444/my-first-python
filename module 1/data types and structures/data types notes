@@ -82,7 +82,7 @@ x = txt.replace("bananas", "apples")
 print(x)
 
 
-
+for loop iterates over a sequence of elements
 
 
 
@@ -109,4 +109,7 @@ list methods:
 
 .append() adding an element to a list
 .insert(index,element)
-.remove remove an element from a list
+.remove remove the first occurance of the element we pass to it
+.pop(index) removes an element from the index
+
+enumerate for loop through a list to get the elements of the list as well as the index of those elements
