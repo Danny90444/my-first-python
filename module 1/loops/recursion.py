@@ -11,21 +11,17 @@ print(sum_positive_numbers(3)) # Should be 6
 print(sum_positive_numbers(5)) # Should be 15
 
 def is_power_of(number, base):
-    # Base case: when number is smaller than base.
-    if number % base == 0:
-     number /= base
+    if number < base: 
+        if number == 1: 
+            return True
+        else: return False
      
-#    elif number < base:
-#        return False
-#    else: 
-#        return True
-## If number is equal to 1, it's a power (base**0).
-#    return is_power_of(number, base)
+    return is_power_of((number/base),base)
+
 
 print(is_power_of(8,2)) # Should be True
 print(is_power_of(64,4)) # Should be True
 print(is_power_of(70,10)) # Should be False
-print(is_power_of(1,1))
 print(is_power_of(68,5))
 print(is_power_of(68,4))
-print(is_power_of(500,5)) f
+print(is_power_of(500,5)) 
