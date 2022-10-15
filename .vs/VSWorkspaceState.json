@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\module 1",
-    "\\module 1\\data types and structures",
-    "\\module 1\\loops"
+    "\\module 4",
+    "\\module 4\\data types and structures"
   ],
-  "SelectedNode": "\\module 1\\data types and structures\\lists practice quiz.py",
+  "SelectedNode": "\\module 4\\data types and structures\\dictionaries.py",
   "PreviewInSolutionExplorer": false
 }

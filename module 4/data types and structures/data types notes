@@ -134,3 +134,10 @@ list.clear() Removes all the items of the list
 list.copy() Creates a copy of the list
 
 list.extend(other_list) Appends all the elements of other_list at the end of list
+
+Dictionary methods
+
+.items 
+
+you can use any immutable data type as dictionary keys: numbers booleans strings 
+and tuples
