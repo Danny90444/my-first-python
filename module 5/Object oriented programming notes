@@ -1,0 +1,11 @@
+object-oriented programming -
+Classes represent and define concepts while objects are instances of classes
+Attribues - characteristics asscoiated to a type
+Methods - functions associated to a type
+
+dir(class)
+help(class) view documentation for the class
+
+Dot notation lets you access any of the abilities that the object
+might have, called methods or information that it might store called attributes, 
+like flavor.
