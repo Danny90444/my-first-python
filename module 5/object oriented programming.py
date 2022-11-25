@@ -70,12 +70,50 @@ def max_elevation_city(min_population):
  if city3.population >= min_population and city3.elevation > return_city.elevation:
 		return_city = city3
 
-	#Format the return string
- if return_city.name:
-  return f"{return_city.name}, {return_city.country}"
- else:
-  return ""
+	##Format the return string
+ #if return_city.name:
+ # return f"{return_city.name}, {return_city.country}"
+ # else:
+ #  return ""
 
 print(max_elevation_city(100000)) # Should print "Cusco, Peru"
 print(max_elevation_city(1000000)) # Should print "Sofia, Bulgaria"
 print(max_elevation_city(10000000)) # Should print ""
+
+g = type("")
+print (g)
+
+class Person:
+	def __init__(self, name):
+		self.name = name
+	def greeting(self):
+		# Should return "hi, my name is " followed by the name of the Person.
+		return ("hi, my name is {}".format(self.name))
+
+# Create a new instance with a name of your choice
+some_person = Person("Jacob")
+# Call the greeting method
+print(some_person.greeting())
+
+
+class Apple:
+	#initialize the self variable and sets the parameters
+	def __init__(self, color, flavor):
+		self.color = color
+		self.flavor = flavor
+		#define method that converts it to a string
+	def __str__(self):
+		return "This apple is {} and its flavor is {}".format(self.color, self.flvaor)
+   #declare an instance variable and assign two values to its attributes
+jonagold = Apple("red", "sweet")
+print(jonagold.color)
+
+
+class Person:
+  def __init__(self, name):
+    self.name = name
+  def greeting(self):
+    """Outputs a message with the name of the person."""
+    print("Hello! My name is {name}.".format(name=self.name)) 
+
+help(Person)
