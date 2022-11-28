@@ -1,6 +1,9 @@
 #print(dir(""))
 #print(help(""))
 
+from argparse import ArgumentDefaultsHelpFormatter
+
+
 class Apple: 
     pass
 
@@ -116,4 +119,76 @@ class Person:
     """Outputs a message with the name of the person."""
     print("Hello! My name is {name}.".format(name=self.name)) 
 
-help(Person)
+#help(Person)
+
+def to_seconds(hours, minutes, seconds):
+    """Returns the amount of seconds in the given hours, minutes and seconds."""
+    return hours*3600+minutes*60+seconds
+
+class Salary:
+	def __init__(self, pay, bonus):
+		self.pay=pay 
+		self.bonus=bonus
+	def annual_salary(self):
+		return (self.pay*12) + self.bonus
+class Employee:
+	def __init__(self, name, age, pay, bonus):
+		self.name=name 
+		self.age = age 
+		self.obj_salary=Salary(pay, bonus)
+	def total_salary(self):
+		return self.obj_salary.annual_salary()
+
+emp = Employee('max',25, 15000, 10000)
+print(emp.total_salary())
+
+
+class Repository:
+     def __init__(self):
+         self.packages = {}
+     def add_package(self, package):
+         self.packages[package.name] = package
+     def total_size(self):
+         result = 0
+         for package in self.packages.values():
+             result += package.size
+         return result
+
+#import datetime
+#now = datetime.datetime.now()
+#type(now)
+#<class 'datetime.datetime'>
+#print(now)
+
+
+#import random
+#random.randint(1,10)
+
+#random.randint(1,10)
+
+#random.randint(1,10)
+
+
+#print(now)
+
+#now.year
+
+#print(now + datetime.timedelta(days=28))
+
+
+#inheritance 
+
+class Animal:
+    name = ""
+    category = ""
+    
+    def __init__(self, name):
+        self.name = name
+    
+    def set_category(self, category):
+        self.category = category
+
+class Turtle(Animal):
+    category = 'reptile'
+
+print(Turtle.category)
