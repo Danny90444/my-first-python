@@ -47,3 +47,6 @@ Object Composition
 
 OOP Lab 
 https://www.coursera.org/learn/python-crash-course/ungradedLab/hmQI2/practice-notebook-object-oriented-programming-optional/lab?path=%2Fnotebooks%2FC1M5_Object_Oriented_Programming_V7.ipynb
+
+.sort()
+sorted()
