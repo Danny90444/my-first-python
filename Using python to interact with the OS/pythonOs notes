@@ -1,0 +1,14 @@
+ Inserting a shebang line (such as #!/usr/bin/env python3) as the first line tells the operating system what command we want to use to execute the script.
+
+ In this course, we'll focus on running scripts from a command prompt, and because our Qwiklabs instructional environments will use Ubuntu, will concentrate on using a command prompt in a Linux-based setting.
+ That said, with a little tweaking, the techniques we use here can be applied to other platforms like Windows or Mac OS.
+ As we called out in our installation videos, the commands to run a Python 3 interpreter might be Python or Python 3 depending on your platform. In our examples, we will a...
+
+ cat 'python file' --- linux command showing contents of python script
+
+ You got it! We use the import command to import any module located in the PATH directory. We can also use import as to assign a localName variable to the imported module.
+
+Notice that init.py file. This is a special file. It's red when the module gets imported and it's used by the interpreter to check if a directory with Python files should it be a module.
+So if you have a module split into separate files, and you want the interpreter to recognize the directory has a module, you'll need to create the init.py file.
+If you don't have anything to put in this file, you need to create it. You can leave it empty but it needs to exist for the interpreter to recognize directory as a Python module.
+
