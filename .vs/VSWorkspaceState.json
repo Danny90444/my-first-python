@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\module 5"
+    "\\module 4",
+    "\\module 4\\data types and structures",
+    "\\Using python to interact with the OS"
   ],
+  "SelectedNode": "\\module 4\\data types and structures\\dictionaries.py",
   "PreviewInSolutionExplorer": false
 }
