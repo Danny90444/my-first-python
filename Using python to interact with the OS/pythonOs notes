@@ -112,3 +112,13 @@ Apparently os.pardir is literally the same as '..'.
 
 In Linux and MacOS the the portions of a file are split using a forward slash (/)
 On windows they're split using a backslash
+
+CSV modules: 
+
+import csv
+f = open("csv_file.txt")
+csv_f = csv.reader(f)
+for row in csv_f:
+ name,phone, role = row
+ print("Name: {}, Phone: {}, Role: {}",format(name, phone, role))
+f.close()
