@@ -1,1 +1,1 @@
-Notes and test code for earning my python cert
+Notes and test code for earning my Python certificates.
